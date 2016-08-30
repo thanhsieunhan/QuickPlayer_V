@@ -7,11 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C7526A311D33803000CED22A /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C7526A301D33803000CED22A /* music.mp3 */; };
-		C75EA28F1D338AFE002D9876 /* ChoAnhNhe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C75EA28A1D338AFE002D9876 /* ChoAnhNhe.mp3 */; };
-		C75EA2901D338AFE002D9876 /* ChoDinhMenhMimCuoi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C75EA28B1D338AFE002D9876 /* ChoDinhMenhMimCuoi.mp3 */; };
 		C75EA2911D338AFE002D9876 /* ChotTinhGiac.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C75EA28C1D338AFE002D9876 /* ChotTinhGiac.mp3 */; };
-		C75EA2921D338AFE002D9876 /* DemNgayXaEm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C75EA28D1D338AFE002D9876 /* DemNgayXaEm.mp3 */; };
 		C75EA2931D338AFE002D9876 /* TheGioiThu4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C75EA28E1D338AFE002D9876 /* TheGioiThu4.mp3 */; };
 		C77D0C2D1D30F0780034A96F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77D0C2C1D30F0780034A96F /* AppDelegate.swift */; };
 		C77D0C2F1D30F0780034A96F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77D0C2E1D30F0780034A96F /* ViewController.swift */; };
@@ -33,11 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C7526A301D33803000CED22A /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
-		C75EA28A1D338AFE002D9876 /* ChoAnhNhe.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ChoAnhNhe.mp3; sourceTree = "<group>"; };
-		C75EA28B1D338AFE002D9876 /* ChoDinhMenhMimCuoi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ChoDinhMenhMimCuoi.mp3; sourceTree = "<group>"; };
 		C75EA28C1D338AFE002D9876 /* ChotTinhGiac.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ChotTinhGiac.mp3; sourceTree = "<group>"; };
-		C75EA28D1D338AFE002D9876 /* DemNgayXaEm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = DemNgayXaEm.mp3; sourceTree = "<group>"; };
 		C75EA28E1D338AFE002D9876 /* TheGioiThu4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = TheGioiThu4.mp3; sourceTree = "<group>"; };
 		C77D0C291D30F0780034A96F /* QuickPlayer_V.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickPlayer_V.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C77D0C2C1D30F0780034A96F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -74,10 +66,7 @@
 		C75EA2891D338AE6002D9876 /* mp3 */ = {
 			isa = PBXGroup;
 			children = (
-				C75EA28A1D338AFE002D9876 /* ChoAnhNhe.mp3 */,
-				C75EA28B1D338AFE002D9876 /* ChoDinhMenhMimCuoi.mp3 */,
 				C75EA28C1D338AFE002D9876 /* ChotTinhGiac.mp3 */,
-				C75EA28D1D338AFE002D9876 /* DemNgayXaEm.mp3 */,
 				C75EA28E1D338AFE002D9876 /* TheGioiThu4.mp3 */,
 			);
 			name = mp3;
@@ -124,7 +113,6 @@
 				C7DF19C91D33F500001F2E92 /* background.jpg */,
 				C7DF19C51D33F40B001F2E92 /* pause.png */,
 				C7DF19C61D33F40B001F2E92 /* play.png */,
-				C7526A301D33803000CED22A /* music.mp3 */,
 				C77D0C411D30F1980034A96F /* duration.png */,
 				C77D0C421D30F1980034A96F /* maxVolume.png */,
 				C77D0C431D30F1980034A96F /* miniVolume.png */,
@@ -192,11 +180,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7526A311D33803000CED22A /* music.mp3 in Resources */,
 				C7DF19C81D33F40B001F2E92 /* play.png in Resources */,
 				C7DF19CE1D33F9AE001F2E92 /* back.png in Resources */,
 				C77D0C4F1D30F1980034A96F /* thumb.png in Resources */,
-				C75EA2921D338AFE002D9876 /* DemNgayXaEm.mp3 in Resources */,
 				C77D0C371D30F0780034A96F /* LaunchScreen.storyboard in Resources */,
 				C75EA2911D338AFE002D9876 /* ChotTinhGiac.mp3 in Resources */,
 				C77D0C491D30F1980034A96F /* duration.png in Resources */,
@@ -208,10 +194,8 @@
 				C7DF19C71D33F40B001F2E92 /* pause.png in Resources */,
 				C7DF19D01D33F9AE001F2E92 /* offRepeat.png in Resources */,
 				C77D0C341D30F0780034A96F /* Assets.xcassets in Resources */,
-				C75EA2901D338AFE002D9876 /* ChoDinhMenhMimCuoi.mp3 in Resources */,
 				C77D0C321D30F0780034A96F /* Main.storyboard in Resources */,
 				C7DF19D21D3408A2001F2E92 /* onRepeat.png in Resources */,
-				C75EA28F1D338AFE002D9876 /* ChoAnhNhe.mp3 in Resources */,
 				C75EA2931D338AFE002D9876 /* TheGioiThu4.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

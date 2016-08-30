@@ -22,7 +22,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate, UITableViewDataSo
     
     var timer = NSTimer()
     var current_Song = 0
-    var fileMusic: [String] = ["ChoAnhNhe","ChoDinhMenhMimCuoi","ChotTinhGiac","DemNgayXaEm","TheGioiThu4"]
+    var fileMusic: [String] = ["ChotTinhGiac","TheGioiThu4"]
     var audio = AVAudioPlayer()
     
     
